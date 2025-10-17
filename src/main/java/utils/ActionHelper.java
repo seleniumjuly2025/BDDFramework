@@ -1,5 +1,6 @@
 package utils;
 
+import factory.DriverFactory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
@@ -17,14 +18,14 @@ public class ActionHelper {
     private WebDriverWait wait;
     private Actions actions;
     private JavascriptExecutor js;
+    private Logger log;
 
-    private static final Logger log = LogManager.getLogger(ActionHelper.class);
-
-    public ActionHelper(WebDriver driver) {
-        this.driver = driver;
+    public ActionHelper() {
+        this.driver = DriverFactory.getDriver();
         this.wait =  new WebDriverWait(driver, Duration.ofSeconds(30));
         this.actions = new Actions(driver);
         this.js = (JavascriptExecutor) driver;
+        this.log = LogManager.getLogger(ActionHelper.class);
     }
 
 
