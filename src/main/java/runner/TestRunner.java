@@ -6,8 +6,8 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
         features = "src/test/resources/features",
-        glue = {"src/main/java/step","src/main/java/hooks"},
-        plugin = {"pretty","html:target/cucumber-reports.html","json:target/cucumber.json"},
+        glue = {"step", "hooks"},
+        plugin = {"pretty","html:target/cucumber-reports.html", "json:target/cucumber.json"},
         tags = "@Login",
         monochrome = true
 )

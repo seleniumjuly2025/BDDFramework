@@ -1,6 +1,7 @@
 package step;
 
 import factory.ConfigReader;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -25,8 +26,25 @@ public class LoginStepDefinition {
         loginPage.clickLogin();
     }
 
+    @And("User clicks on Login Btn")
+    public void clickOnLgnBtn(){
+        loginPage.clickLogin();
+    }
+
     @Then("Dashbard should be visible")
     public void verify_dashboard(){
         Assert.assertTrue(dashboardPage.isDashBoardVisible(),"Dashboard not visible");
+    }
+
+    @And("error message {string} should be displayed")
+    public void errorMessage1(String expectedMsg){
+        String actualMsg = loginPage.getErrorMessage();
+        Assert.assertEquals(actualMsg.trim(),expectedMsg.trim());
+    }
+
+    @And("error message {string} should be displayed on field")
+    public void errorMessage2(String expectedMsg){
+        String actualMsg = loginPage.getErrorMessageOnField();
+        Assert.assertEquals(actualMsg.trim(),expectedMsg.trim());
     }
 }

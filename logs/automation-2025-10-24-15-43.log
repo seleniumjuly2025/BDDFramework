@@ -1,0 +1,34 @@
+2025-10-24 15:43:01 [main] INFO  ActionHelper:37 - Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2025-10-24 15:43:04 [main] INFO  ActionHelper:55 - Wating for element to be visible: By.name: username
+2025-10-24 15:43:05 [main] INFO  ActionHelper:59 - Sent keys to element: By.name: username | Value : wronguser
+2025-10-24 15:43:05 [main] INFO  ActionHelper:55 - Wating for element to be visible: By.name: password
+2025-10-24 15:43:05 [main] INFO  ActionHelper:59 - Sent keys to element: By.name: password | Value : admin123
+2025-10-24 15:43:05 [main] INFO  ActionHelper:43 - Wating for element to be clickable: By.xpath: //button[@type='submit']
+2025-10-24 15:43:07 [main] INFO  ActionHelper:46 - Clicked on element: By.xpath: //button[@type='submit']
+2025-10-24 15:43:07 [main] INFO  ActionHelper:43 - Wating for element to be clickable: By.xpath: //button[@type='submit']
+2025-10-24 15:43:07 [main] INFO  ActionHelper:46 - Clicked on element: By.xpath: //button[@type='submit']
+2025-10-24 15:43:07 [main] INFO  ActionHelper:69 - Text retrieved from :By.xpath: //div[contains(@class,'content--error')]/p : Invalid credentials
+2025-10-24 15:43:07 [main] INFO  Hooks:48 - Qutting Browser....
+2025-10-24 15:43:08 [main] INFO  Hooks:23 -  $$$$$$\  $$$$$$$\   $$$$$$\  $$\   $$\  $$$$$$\  $$$$$$$$\       $$\   $$\ $$$$$$$\  $$\      $$\        $$$$$$\  $$\   $$\ $$$$$$$$\  $$$$$$\  $$\      $$\  $$$$$$\ $$$$$$$$\ $$$$$$\  $$$$$$\  $$\   $$\ 
+$$  __$$\ $$  __$$\ $$  __$$\ $$$\  $$ |$$  __$$\ $$  _____|      $$ |  $$ |$$  __$$\ $$$\    $$$ |      $$  __$$\ $$ |  $$ |\__$$  __|$$  __$$\ $$$\    $$$ |$$  __$$\\__$$  __|\_$$  _|$$  __$$\ $$$\  $$ |
+$$ /  $$ |$$ |  $$ |$$ /  $$ |$$$$\ $$ |$$ /  \__|$$ |            $$ |  $$ |$$ |  $$ |$$$$\  $$$$ |      $$ /  $$ |$$ |  $$ |   $$ |   $$ /  $$ |$$$$\  $$$$ |$$ /  $$ |  $$ |     $$ |  $$ /  $$ |$$$$\ $$ |
+$$ |  $$ |$$$$$$$  |$$$$$$$$ |$$ $$\$$ |$$ |$$$$\ $$$$$\          $$$$$$$$ |$$$$$$$  |$$\$$\$$ $$ |      $$$$$$$$ |$$ |  $$ |   $$ |   $$ |  $$ |$$\$$\$$ $$ |$$$$$$$$ |  $$ |     $$ |  $$ |  $$ |$$ $$\$$ |
+$$ |  $$ |$$  __$$< $$  __$$ |$$ \$$$$ |$$ |\_$$ |$$  __|         $$  __$$ |$$  __$$< $$ \$$$  $$ |      $$  __$$ |$$ |  $$ |   $$ |   $$ |  $$ |$$ \$$$  $$ |$$  __$$ |  $$ |     $$ |  $$ |  $$ |$$ \$$$$ |
+$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |\$$$ |$$ |  $$ |$$ |            $$ |  $$ |$$ |  $$ |$$ |\$  /$$ |      $$ |  $$ |$$ |  $$ |   $$ |   $$ |  $$ |$$ |\$  /$$ |$$ |  $$ |  $$ |     $$ |  $$ |  $$ |$$ |\$$$ |
+ $$$$$$  |$$ |  $$ |$$ |  $$ |$$ | \$$ |\$$$$$$  |$$$$$$$$\       $$ |  $$ |$$ |  $$ |$$ | \_/ $$ |      $$ |  $$ |\$$$$$$  |   $$ |    $$$$$$  |$$ | \_/ $$ |$$ |  $$ |  $$ |   $$$$$$\  $$$$$$  |$$ | \$$ |
+ \______/ \__|  \__|\__|  \__|\__|  \__| \______/ \________|      \__|  \__|\__|  \__|\__|     \__|      \__|  \__| \______/    \__|    \______/ \__|     \__|\__|  \__|  \__|   \______| \______/ \__|  \__|
+                                                                                                                                                                                                             
+                                                                                                                                                                                                             
+                                                                                                                                                                                                             
+2025-10-24 15:43:08 [main] INFO  Hooks:37 - Launching Browser.....
+2025-10-24 15:43:09 [main] INFO  ActionHelper:37 - Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2025-10-24 15:43:13 [main] INFO  ActionHelper:55 - Wating for element to be visible: By.name: username
+2025-10-24 15:43:13 [main] INFO  ActionHelper:59 - Sent keys to element: By.name: username | Value : wronguser
+2025-10-24 15:43:13 [main] INFO  ActionHelper:55 - Wating for element to be visible: By.name: password
+2025-10-24 15:43:13 [main] INFO  ActionHelper:59 - Sent keys to element: By.name: password | Value : wrong123
+2025-10-24 15:43:13 [main] INFO  ActionHelper:43 - Wating for element to be clickable: By.xpath: //button[@type='submit']
+2025-10-24 15:43:14 [main] INFO  ActionHelper:46 - Clicked on element: By.xpath: //button[@type='submit']
+2025-10-24 15:43:14 [main] INFO  ActionHelper:43 - Wating for element to be clickable: By.xpath: //button[@type='submit']
+2025-10-24 15:43:15 [main] INFO  ActionHelper:46 - Clicked on element: By.xpath: //button[@type='submit']
+2025-10-24 15:43:15 [main] INFO  ActionHelper:69 - Text retrieved from :By.xpath: //div[contains(@class,'content--error')]/p : Invalid credentials
+2025-10-24 15:43:15 [main] INFO  Hooks:48 - Qutting Browser....

@@ -311,7 +311,7 @@ public class ActionHelper {
     public String takeScreenshot(String fileName){
         try{
             File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-            String dest = System.getProperty("user,dir")+ "/screenshots/"+ fileName + ".png";
+            String dest = System.getProperty("user.dir")+ "/screenshots/"+ fileName + ".png";
             FileHandler.createDir(new File("screenshots"));
             FileHandler.copy(src,new File(dest));
             log.info("Screenshot captured: {} ",dest);
