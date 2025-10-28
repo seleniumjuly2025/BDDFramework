@@ -21,7 +21,7 @@
        | wronguser| wrong123 | Invalid credentials |
      
      @Sanity
-     Scenario Outline: Login with blank username
+     Scenario Outline: Login with some blank fields
        When User logs in the username "<username>" and password "<password>"
        And User clicks on Login Btn
        Then error message "<errorMessage>" should be displayed on field

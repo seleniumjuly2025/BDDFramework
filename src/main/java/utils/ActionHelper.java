@@ -1,6 +1,7 @@
 package utils;
 
 import factory.DriverFactory;
+import io.qameta.allure.Attachment;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
@@ -308,6 +309,7 @@ public class ActionHelper {
     /*****************
     Screenshot Utility
     *******************/
+    @Attachment(value = "Failed Screenshot", type = "image/png")
     public String takeScreenshot(String fileName){
         try{
             File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

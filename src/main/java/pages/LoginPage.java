@@ -29,17 +29,21 @@ public class LoginPage extends TestBase {
     public void clickLogin(){
         action.waitAndClick(loginBtn);
     }
+    @Step("Check the Logo Visibility")
     public boolean isLogoVisible(){
         return action.isDisplayed(logo);
     }
+    @Step("Check the Forgot Password Link Visibility")
     public boolean isForgetPasswordVisible(){
         return action.isDisplayed(forgotLink);
     }
 
+    @Step("Validate the Error Message")
     public String getErrorMessage(){
         return action.getText(invalidMsg);
     }
 
+    @Step("Validate the Error Message on Field")
     public String getErrorMessageOnField(){
         return action.getText(invalidMsgField);
     }

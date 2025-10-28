@@ -1,0 +1,9 @@
+2025-10-28 15:51:01 [main] INFO  ActionHelper:60 - Sent keys to element: By.name: username | Value : Admin.
+2025-10-28 15:51:01 [main] INFO  ActionHelper:56 - Wating for element to be visible: By.name: password
+2025-10-28 15:51:01 [main] INFO  ActionHelper:60 - Sent keys to element: By.name: password | Value : 
+2025-10-28 15:51:01 [main] INFO  ActionHelper:44 - Wating for element to be clickable: By.xpath: //button[@type='submit']
+2025-10-28 15:51:01 [main] INFO  ActionHelper:47 - Clicked on element: By.xpath: //button[@type='submit']
+2025-10-28 15:51:01 [main] INFO  ActionHelper:44 - Wating for element to be clickable: By.xpath: //button[@type='submit']
+2025-10-28 15:51:01 [main] INFO  ActionHelper:47 - Clicked on element: By.xpath: //button[@type='submit']
+2025-10-28 15:51:01 [main] INFO  ActionHelper:70 - Text retrieved from :By.xpath: //span[text()='Required'] : Required
+2025-10-28 15:51:01 [main] INFO  Hooks:45 - Qutting Browser....

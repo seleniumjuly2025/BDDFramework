@@ -5,11 +5,8 @@ import factory.DriverFactory;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
-import io.cucumber.java.BeforeAll;
 import io.cucumber.java.Scenario;
 import org.apache.logging.log4j.Logger;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 import utils.ActionHelper;
 import utils.LogHelper;
 
