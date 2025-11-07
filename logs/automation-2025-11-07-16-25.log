@@ -1,0 +1,38 @@
+2025-11-07 16:25:35 [main] INFO  Hooks:20 -  $$$$$$\  $$$$$$$\   $$$$$$\  $$\   $$\  $$$$$$\  $$$$$$$$\       $$\   $$\ $$$$$$$\  $$\      $$\        $$$$$$\  $$\   $$\ $$$$$$$$\  $$$$$$\  $$\      $$\  $$$$$$\ $$$$$$$$\ $$$$$$\  $$$$$$\  $$\   $$\ 
+$$  __$$\ $$  __$$\ $$  __$$\ $$$\  $$ |$$  __$$\ $$  _____|      $$ |  $$ |$$  __$$\ $$$\    $$$ |      $$  __$$\ $$ |  $$ |\__$$  __|$$  __$$\ $$$\    $$$ |$$  __$$\\__$$  __|\_$$  _|$$  __$$\ $$$\  $$ |
+$$ /  $$ |$$ |  $$ |$$ /  $$ |$$$$\ $$ |$$ /  \__|$$ |            $$ |  $$ |$$ |  $$ |$$$$\  $$$$ |      $$ /  $$ |$$ |  $$ |   $$ |   $$ /  $$ |$$$$\  $$$$ |$$ /  $$ |  $$ |     $$ |  $$ /  $$ |$$$$\ $$ |
+$$ |  $$ |$$$$$$$  |$$$$$$$$ |$$ $$\$$ |$$ |$$$$\ $$$$$\          $$$$$$$$ |$$$$$$$  |$$\$$\$$ $$ |      $$$$$$$$ |$$ |  $$ |   $$ |   $$ |  $$ |$$\$$\$$ $$ |$$$$$$$$ |  $$ |     $$ |  $$ |  $$ |$$ $$\$$ |
+$$ |  $$ |$$  __$$< $$  __$$ |$$ \$$$$ |$$ |\_$$ |$$  __|         $$  __$$ |$$  __$$< $$ \$$$  $$ |      $$  __$$ |$$ |  $$ |   $$ |   $$ |  $$ |$$ \$$$  $$ |$$  __$$ |  $$ |     $$ |  $$ |  $$ |$$ \$$$$ |
+$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |\$$$ |$$ |  $$ |$$ |            $$ |  $$ |$$ |  $$ |$$ |\$  /$$ |      $$ |  $$ |$$ |  $$ |   $$ |   $$ |  $$ |$$ |\$  /$$ |$$ |  $$ |  $$ |     $$ |  $$ |  $$ |$$ |\$$$ |
+ $$$$$$  |$$ |  $$ |$$ |  $$ |$$ | \$$ |\$$$$$$  |$$$$$$$$\       $$ |  $$ |$$ |  $$ |$$ | \_/ $$ |      $$ |  $$ |\$$$$$$  |   $$ |    $$$$$$  |$$ | \_/ $$ |$$ |  $$ |  $$ |   $$$$$$\  $$$$$$  |$$ | \$$ |
+ \______/ \__|  \__|\__|  \__|\__|  \__| \______/ \________|      \__|  \__|\__|  \__|\__|     \__|      \__|  \__| \______/    \__|    \______/ \__|     \__|\__|  \__|  \__|   \______| \______/ \__|  \__|
+                                                                                                                                                                                                             
+                                                                                                                                                                                                             
+                                                                                                                                                                                                             
+2025-11-07 16:25:35 [main] INFO  Hooks:34 - Launching Browser.....
+2025-11-07 16:25:38 [main] INFO  ActionHelper:38 - Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2025-11-07 16:25:41 [main] INFO  ActionHelper:56 - Wating for element to be visible: By.name: username
+2025-11-07 16:25:42 [main] INFO  ActionHelper:60 - Sent keys to element: By.name: username | Value : Admin
+2025-11-07 16:25:42 [main] INFO  ActionHelper:56 - Wating for element to be visible: By.name: password
+2025-11-07 16:25:42 [main] INFO  ActionHelper:60 - Sent keys to element: By.name: password | Value : admin123
+2025-11-07 16:25:42 [main] INFO  ActionHelper:44 - Wating for element to be clickable: By.xpath: //button[@type='submit']
+2025-11-07 16:25:44 [main] INFO  ActionHelper:47 - Clicked on element: By.xpath: //button[@type='submit']
+2025-11-07 16:25:44 [main] INFO  ActionHelper:81 - Element displayed:By.xpath: //h6[text()='Dashboard'] : true
+2025-11-07 16:25:44 [main] INFO  ActionHelper:44 - Wating for element to be clickable: By.xpath: //a[contains(@href,'/pim/viewPim')]
+2025-11-07 16:25:47 [main] INFO  ActionHelper:47 - Clicked on element: By.xpath: //a[contains(@href,'/pim/viewPim')]
+2025-11-07 16:25:47 [main] INFO  ActionHelper:44 - Wating for element to be clickable: By.xpath: //a[contains(@href,'/pim/viewPim')]
+2025-11-07 16:25:48 [main] INFO  ActionHelper:47 - Clicked on element: By.xpath: //a[contains(@href,'/pim/viewPim')]
+2025-11-07 16:25:48 [main] INFO  ActionHelper:44 - Wating for element to be clickable: By.xpath: //button[text()=' Add ']
+2025-11-07 16:25:49 [main] INFO  ActionHelper:47 - Clicked on element: By.xpath: //button[text()=' Add ']
+2025-11-07 16:25:49 [main] INFO  ActionHelper:56 - Wating for element to be visible: By.name: firstName
+2025-11-07 16:25:49 [main] INFO  ActionHelper:60 - Sent keys to element: By.name: firstName | Value : Rahul
+2025-11-07 16:25:49 [main] INFO  ActionHelper:56 - Wating for element to be visible: By.name: lastName
+2025-11-07 16:25:49 [main] INFO  ActionHelper:60 - Sent keys to element: By.name: lastName | Value : Kumar
+2025-11-07 16:25:49 [main] INFO  ActionHelper:56 - Wating for element to be visible: By.xpath: //label[text()='Employee Id']/../following-sibling::div/input
+2025-11-07 16:25:49 [main] INFO  ActionHelper:60 - Sent keys to element: By.xpath: //label[text()='Employee Id']/../following-sibling::div/input | Value : 898
+2025-11-07 16:25:52 [main] INFO  ActionHelper:44 - Wating for element to be clickable: By.xpath: //div[@class='oxd-form-actions']/button[2]
+2025-11-07 16:25:53 [main] INFO  ActionHelper:47 - Clicked on element: By.xpath: //div[@class='oxd-form-actions']/button[2]
+2025-11-07 16:25:54 [main] INFO  ActionHelper:70 - Text retrieved from :By.xpath: //div[contains(@id,'oxd-toaster')] : Success
+Successfully Saved
+×
+2025-11-07 16:25:54 [main] INFO  Hooks:45 - Qutting Browser....

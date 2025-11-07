@@ -1,0 +1,111 @@
+2025-11-07 16:20:18 [main] INFO  Hooks:20 -  $$$$$$\  $$$$$$$\   $$$$$$\  $$\   $$\  $$$$$$\  $$$$$$$$\       $$\   $$\ $$$$$$$\  $$\      $$\        $$$$$$\  $$\   $$\ $$$$$$$$\  $$$$$$\  $$\      $$\  $$$$$$\ $$$$$$$$\ $$$$$$\  $$$$$$\  $$\   $$\ 
+$$  __$$\ $$  __$$\ $$  __$$\ $$$\  $$ |$$  __$$\ $$  _____|      $$ |  $$ |$$  __$$\ $$$\    $$$ |      $$  __$$\ $$ |  $$ |\__$$  __|$$  __$$\ $$$\    $$$ |$$  __$$\\__$$  __|\_$$  _|$$  __$$\ $$$\  $$ |
+$$ /  $$ |$$ |  $$ |$$ /  $$ |$$$$\ $$ |$$ /  \__|$$ |            $$ |  $$ |$$ |  $$ |$$$$\  $$$$ |      $$ /  $$ |$$ |  $$ |   $$ |   $$ /  $$ |$$$$\  $$$$ |$$ /  $$ |  $$ |     $$ |  $$ /  $$ |$$$$\ $$ |
+$$ |  $$ |$$$$$$$  |$$$$$$$$ |$$ $$\$$ |$$ |$$$$\ $$$$$\          $$$$$$$$ |$$$$$$$  |$$\$$\$$ $$ |      $$$$$$$$ |$$ |  $$ |   $$ |   $$ |  $$ |$$\$$\$$ $$ |$$$$$$$$ |  $$ |     $$ |  $$ |  $$ |$$ $$\$$ |
+$$ |  $$ |$$  __$$< $$  __$$ |$$ \$$$$ |$$ |\_$$ |$$  __|         $$  __$$ |$$  __$$< $$ \$$$  $$ |      $$  __$$ |$$ |  $$ |   $$ |   $$ |  $$ |$$ \$$$  $$ |$$  __$$ |  $$ |     $$ |  $$ |  $$ |$$ \$$$$ |
+$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |\$$$ |$$ |  $$ |$$ |            $$ |  $$ |$$ |  $$ |$$ |\$  /$$ |      $$ |  $$ |$$ |  $$ |   $$ |   $$ |  $$ |$$ |\$  /$$ |$$ |  $$ |  $$ |     $$ |  $$ |  $$ |$$ |\$$$ |
+ $$$$$$  |$$ |  $$ |$$ |  $$ |$$ | \$$ |\$$$$$$  |$$$$$$$$\       $$ |  $$ |$$ |  $$ |$$ | \_/ $$ |      $$ |  $$ |\$$$$$$  |   $$ |    $$$$$$  |$$ | \_/ $$ |$$ |  $$ |  $$ |   $$$$$$\  $$$$$$  |$$ | \$$ |
+ \______/ \__|  \__|\__|  \__|\__|  \__| \______/ \________|      \__|  \__|\__|  \__|\__|     \__|      \__|  \__| \______/    \__|    \______/ \__|     \__|\__|  \__|  \__|   \______| \______/ \__|  \__|
+                                                                                                                                                                                                             
+                                                                                                                                                                                                             
+                                                                                                                                                                                                             
+2025-11-07 16:20:18 [main] INFO  Hooks:34 - Launching Browser.....
+2025-11-07 16:20:20 [main] INFO  ActionHelper:38 - Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2025-11-07 16:20:24 [main] INFO  ActionHelper:56 - Wating for element to be visible: By.name: username
+2025-11-07 16:20:25 [main] INFO  ActionHelper:60 - Sent keys to element: By.name: username | Value : Admin
+2025-11-07 16:20:25 [main] INFO  ActionHelper:56 - Wating for element to be visible: By.name: password
+2025-11-07 16:20:25 [main] INFO  ActionHelper:60 - Sent keys to element: By.name: password | Value : admin123
+2025-11-07 16:20:25 [main] INFO  ActionHelper:44 - Wating for element to be clickable: By.xpath: //button[@type='submit']
+2025-11-07 16:20:26 [main] INFO  ActionHelper:47 - Clicked on element: By.xpath: //button[@type='submit']
+2025-11-07 16:20:26 [main] INFO  ActionHelper:81 - Element displayed:By.xpath: //h6[text()='Dashboard'] : true
+2025-11-07 16:20:26 [main] INFO  ActionHelper:44 - Wating for element to be clickable: By.xpath: //a[contains(@href,'/pim/viewPim')]
+2025-11-07 16:20:28 [main] INFO  ActionHelper:47 - Clicked on element: By.xpath: //a[contains(@href,'/pim/viewPim')]
+2025-11-07 16:20:28 [main] INFO  ActionHelper:44 - Wating for element to be clickable: By.xpath: //a[contains(@href,'/pim/viewPim')]
+2025-11-07 16:20:30 [main] INFO  ActionHelper:47 - Clicked on element: By.xpath: //a[contains(@href,'/pim/viewPim')]
+2025-11-07 16:20:30 [main] INFO  ActionHelper:44 - Wating for element to be clickable: By.xpath: //button[text()=' Add ']
+2025-11-07 16:20:31 [main] INFO  ActionHelper:47 - Clicked on element: By.xpath: //button[text()=' Add ']
+2025-11-07 16:20:31 [main] INFO  ActionHelper:56 - Wating for element to be visible: By.name: firstName
+2025-11-07 16:20:32 [main] INFO  ActionHelper:60 - Sent keys to element: By.name: firstName | Value : Rahul
+2025-11-07 16:20:32 [main] INFO  ActionHelper:56 - Wating for element to be visible: By.name: lastName
+2025-11-07 16:20:32 [main] INFO  ActionHelper:60 - Sent keys to element: By.name: lastName | Value : Kumar
+2025-11-07 16:20:32 [main] INFO  ActionHelper:56 - Wating for element to be visible: By.xpath: //label[text()='Employee Id']/../following-sibling::div/input
+2025-11-07 16:20:32 [main] INFO  ActionHelper:60 - Sent keys to element: By.xpath: //label[text()='Employee Id']/../following-sibling::div/input | Value : 898
+2025-11-07 16:20:32 [main] INFO  ActionHelper:44 - Wating for element to be clickable: By.xpath: //button[@type='submit']
+2025-11-07 16:20:32 [main] ERROR ActionHelper:49 - Failed to click on element: By.xpath: //button[@type='submit']
+org.openqa.selenium.ElementClickInterceptedException: Element <button class="oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space" type="submit"> is not clickable at point (1587,495) because another element <div class="oxd-form-loader"> obscures it
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6', java.version: '25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3d816186-c401-41eb-91ff-3a24db782c5f, clickElement {id=2df0d1ab-209a-4091-a229-1fc5590f0594}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 23.6.0, moz:processID: 2476, moz:profile: /var/folders/c9/h27_f0xj689..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (3d816186-c401-41eb-91ff-3a24db782c5f)] -> xpath: //button[@type='submit']]
+Session ID: 3d816186-c401-41eb-91ff-3a24db782c5f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.34.0.jar:?]
+	at utils.ActionHelper.waitAndClick(ActionHelper.java:46) [classes/:?]
+	at pages.PIMPage.clickSave(PIMPage.java:79) [classes/:?]
+	at step.PIMStepDefinition.user_clicks_on_save_button(PIMStepDefinition.java:42) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) [cucumber-java-7.29.0.jar:7.29.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) [cucumber-java-7.29.0.jar:7.29.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) [cucumber-java-7.29.0.jar:7.29.0]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) [cucumber-java-7.29.0.jar:7.29.0]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) [cucumber-core-7.29.0.jar:7.29.0]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62) [cucumber-core-7.29.0.jar:7.29.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) [cucumber-core-7.29.0.jar:7.29.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) [cucumber-core-7.29.0.jar:7.29.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) [cucumber-core-7.29.0.jar:7.29.0]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) [cucumber-core-7.29.0.jar:7.29.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:87) [cucumber-core-7.29.0.jar:7.29.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:78) [cucumber-core-7.29.0.jar:7.29.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135) [cucumber-testng-7.29.0.jar:7.29.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) [cucumber-core-7.29.0.jar:7.29.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) [cucumber-core-7.29.0.jar:7.29.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) [cucumber-core-7.29.0.jar:7.29.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132) [cucumber-testng-7.29.0.jar:7.29.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) [cucumber-testng-7.29.0.jar:7.29.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155) [surefire-testng-3.2.3.jar:3.2.3]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102) [surefire-testng-3.2.3.jar:3.2.3]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91) [surefire-testng-3.2.3.jar:3.2.3]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137) [surefire-testng-3.2.3.jar:3.2.3]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.2.3.jar:3.2.3]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.2.3.jar:3.2.3]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.2.3.jar:3.2.3]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.2.3.jar:3.2.3]
+2025-11-07 16:20:32 [main] INFO  ActionHelper:319 - Screenshot captured: /Users/akumar/IdeaProjects/OrangeHRM-BDD/screenshots/Add_a_new_employee_eith_valid_details.png 
+2025-11-07 16:20:32 [main] ERROR Hooks:43 - Scenario failed.. Screenshot at :/Users/akumar/IdeaProjects/OrangeHRM-BDD/screenshots/Add_a_new_employee_eith_valid_details.png
+2025-11-07 16:20:32 [main] INFO  Hooks:45 - Qutting Browser....

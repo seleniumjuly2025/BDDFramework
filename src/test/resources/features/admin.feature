@@ -1,12 +1,12 @@
 @AdminRole
 
-  Feature: Verify Admin User Management Functionality
+Feature: Verify Admin User Management Functionality
 
-#    Background:
-#      Given User opens application
-#      When User logs in the username "Admin" and password "admin123"
-#      Then Dashbard should be visible
-#      Then User navigate to Admin Page
+    Background:
+      Given User opens application
+      When User logs in the username "Admin" and password "admin123"
+      Then Dashbard should be visible
+      Then User navigate to Admin Page
 
     @SearchUser @Sanity @Smoke
       Scenario Outline: Verify searching user by username

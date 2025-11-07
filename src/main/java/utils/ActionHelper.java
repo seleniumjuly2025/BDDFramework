@@ -335,6 +335,16 @@ public class ActionHelper {
         log.info("Cleared text for element: {}", locator);
     }
 
+    public void clearUsingBackSpace(By locator){
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        String value = element.getText();
+        while(value.isBlank()){
+        element.sendKeys(Keys.BACK_SPACE);
+        value = element.getText();
+        }
+        log.info("Cleared text for element: {}", locator);
+    }
+
     public boolean verifyTextEquals(By locator, String expectedText){
         String actual = getText(locator);
         boolean match = actual.trim().equalsIgnoreCase(expectedText.trim());

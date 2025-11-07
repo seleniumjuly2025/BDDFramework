@@ -13,10 +13,7 @@ public class LoginPage extends TestBase {
     private By invalidMsg = By.xpath("//div[contains(@class,'content--error')]/p");
     private By invalidMsgField =  By.xpath("//span[text()='Required']");
 
-    @Epic("Login Module")
-    @Feature("Login Functionality")
-    @Story("Valid login scenario")
-    @Severity(SeverityLevel.CRITICAL)
+
     @Step("Opening URL: {0}")
     public void open(String url){
         action.navigateTOUrl(url);
