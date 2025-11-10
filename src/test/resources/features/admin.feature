@@ -1,4 +1,4 @@
-@AdminRole
+#@AdminRole
 
 #Feature: Verify Admin User Management Functionality
 #
